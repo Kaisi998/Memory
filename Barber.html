@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <script>
+            alert('Sister Mirry photos');
+        </script>
+    <title>Sister Mirry's photos</title>
+    <link rel="stylesheet" href="barber.css">
+    </head>
+    <body>
+        <section id="banner">
+        <div class="banner-text">
+            <h1>This is my sister Mirriam drinking water</h1>
+            <p>This comes about after she had a lot of chicken to eat</p>
+            <p>She is a very hard working and caring person. Proud to have her as my big sister</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Find out</a>
+                <a href="#"><span></span>Read More</a>
+            </div>
+        </div>
+
+
+        </section>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">CONTACTS</a></li>
+                    <li><a href="#">ABOUT ME</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="images/menu.png" id="menu">
+        </div>
+        <scrip>
+        var menuBtn = document.getElementById("menuBtn")
+        var menuBtn = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+         
+        sideNav.style.right = "-250px";
+
+        menuBtn.onclick = function()
+        {
+            if(sideNav.style.right == "-250px")
+            {
+                sideNav.style.right = "0";
+            }
+            else
+            {
+                sideNav.style.right = "-250px";
+            }
+        }
+
+            </scrip>
+
+    </body>
+</html>
